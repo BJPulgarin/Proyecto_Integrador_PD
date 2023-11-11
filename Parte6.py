@@ -4,7 +4,6 @@ import sys
 csv = sys.argv[1]
 data_original = pd.read_csv(csv)
 
-
 def LimpiarData(data: pd.DataFrame):
     print('\n')
     # hay faltantes?
